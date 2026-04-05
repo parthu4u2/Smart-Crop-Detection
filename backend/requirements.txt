@@ -1,0 +1,14 @@
+pip install bcrypt==3.2.0
+pip install passlib==1.7.4
+
+
+
+
+💡 NEXT LEVEL (OPTIONAL BUT POWERFUL)
+
+Now you can:
+
+👉 Connect with Telegram
+👉 Send real notifications
+
+(using n8n / bot)
