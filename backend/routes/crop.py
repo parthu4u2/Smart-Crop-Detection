@@ -24,7 +24,7 @@ def add_crop(crop: Crop, user=Depends(get_current_user)):
 def get_my_crops(user=Depends(get_current_user)):
     crops = list(crops_collection.find({"user_id": user["user_id"]}))
 
-    # Convert ObjectId to string
+    # Convert ObjectId to string .
     for crop in crops:
         crop["_id"] = str(crop["_id"])
 
